@@ -438,6 +438,7 @@ CREATE TABLE [dbo].[tTest](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
+/****** Object:  會員收登錄資訊表 ******/
 /****** Object:  Table [dbo].[tUser]    Script Date: 2020/1/30 下午 04:20:43 ******/
 SET ANSI_NULLS ON
 GO
@@ -457,6 +458,7 @@ CREATE TABLE [dbo].[tUser](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
+/****** Object:  會員權限定義表 ******/
 /****** Object:  Table [dbo].[tUserAuth]    Script Date: 2020/1/30 下午 04:20:43 ******/
 SET ANSI_NULLS ON
 GO
@@ -473,6 +475,7 @@ CREATE TABLE [dbo].[tUserAuth](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
+/****** Object:  會員收藏文章清單 ******/
 /****** Object:  Table [dbo].[tUserFavorite]    Script Date: 2020/1/30 下午 04:20:44 ******/
 SET ANSI_NULLS ON
 GO
@@ -487,6 +490,7 @@ CREATE TABLE [dbo].[tUserFavorite](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
+/****** Object:  會員主表--個人資料 ******/
 /****** Object:  Table [dbo].[tUserProfile]    Script Date: 2020/1/30 下午 04:20:44 ******/
 SET ANSI_NULLS ON
 GO
